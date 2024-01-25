@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listing Page</title>
+    <link rel="stylesheet" href="styles/App.css">
+    <link rel="stylesheet" href="styles/EventForm.css">
+    <link rel="stylesheet" href="styles/EventList.css">
+</head>
+<body>
+    <div class="top-container">
+        <h1>University Events</h1>
+        <div>
+            <label>
+                Sort Order:
+                <button class="btn-delete" onclick="handleSortChange()">Toggle</button>
+            </label>
+            <label>
+                Filter by Location:
+                <input class="btn-delete" type="text" id="locationFilter">
+            </label>
+        </div>
+        
+        <div id="eventList">
+            
+        </div>
+        <div class="creating-event">
+            <h2>Please tab to create event</h2>
+            
+            <button class="btn" id="CreateEventButton">CreateEvent</button>
+        </div>
+    </div>
+
+    <script src="EventListingPage.js">
+
+        document.getElementById("CreateEventButton").onclick = function() {
+            
+            window.location.href = 'EventCreation.html';
+        };
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event</title>
+    <link rel="stylesheet" href="styles/App.css">
+    <link rel="stylesheet" href="styles/EventForm.css">
+    <link rel="stylesheet" href="styles/EventList.css">
+</head>
+<body>
+    <div>
+        <h1>Create Event</h1>
+        <form class="event-link" id="eventCreationForm">
+            <div class="event-space">
+                <label for="name">Event Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+            </div>
+
+            <div class="event-space">
+                <label for="date">Event Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="event-space">
+                <label for="location">Event Location:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+
+            <div class="event-space">
+                <label for="description">Event Description:</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+
+            <div class="event-space">
+                <label for="organizer">Event Organizer:</label>
+                <input type="text" id="organizer" name="organizer" required>
+            </div>
+
+            <button class="btn-delete" type="submit">Create Event</button>
+        </form>
+    </div>
+
+    <script src="EventCreationPage.js"></script>
+</body>
+</html>
