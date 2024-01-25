@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "name": "Event 3",
+      "date": "2024-12-11",
+      "location": "Akdeniz üniversitesi",
+      "description": ".",
+      "organizer": "Ayşenur Dağ",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+/* src/styles/App.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* for larger screens */
+  @media (min-width: 768px) {
+    body {
+      background-color: #5ca2c0;
+      background-image: url('/Users/aysenurdag/university-events-management/src/images/unimagefirst.png');
+      
+    }
+  }
+  
+  /* for smaller screens */
+  @media (max-width: 767px) {
+    body {
+      background-color: #f4f4f4;
+
+
+    }
+  
+  }
+  
+
+  .top-container {
+    background-image: url('/Users/aysenurdag/university-events-management/src/images/unimagefirst.png');
+    background-color: #5ca2c0;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 30px;
+    
+}
+
+.btn {
+  background: #e08bdc;
+  background-image: -webkit-linear-gradient(top, #030053, #030053);
+  background-image: -moz-linear-gradient(top, #030053, #030053);
+  background-image: -ms-linear-gradient(top, #030053, #030053);
+  background-image: -o-linear-gradient(top, #030053, #030053);
+  background-image: linear-gradient(to bottom, #030053, #030053);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-delete {
+  background: #8e8be0;
+  background-image: -webkit-linear-gradient(top, #030053, #030053);
+  background-image: -moz-linear-gradient(top, #030053, #030053);
+  background-image: -ms-linear-gradient(top, #030053, #030053);
+  background-image: -o-linear-gradient(top, #030053, #030053);
+  background-image: linear-gradient(to bottom, #030053, #030053);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+.btn:hover {
+  background: #0373bd;
+  background-image: -webkit-linear-gradient(top, #0373bd, #0373bd);
+  background-image: -moz-linear-gradient(top, #0373bd, #0373bd);
+  background-image: -ms-linear-gradient(top, #0373bd, #0373bd);
+  background-image: -o-linear-gradient(top, #0373bd, #0373bd);
+  background-image: linear-gradient(to bottom, #0373bd, #0373bd);
+  text-decoration: none;
+}
+
+.event-link {
+  margin: 10px 20px;
+
+}
+
+.event-space {
+  margin-bottom: 20px;
+}
+
+.event-space-left {
+  margin-left: 20px;
+}

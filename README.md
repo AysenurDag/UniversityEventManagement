@@ -1,5 +1,3 @@
-# UniversityEventManagement
-
 ***University Events Web Application***
 
 Overview:
