@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Detail Page</title>
+    
+    <link rel="stylesheet" href="styles/App.css">
+    <link rel="stylesheet" href="styles/EventForm.css">
+    <link rel="stylesheet" href="styles/EventList.css">
+
+</head>
+<body>
+    <div class="event-space-left">
+        <h2>Event Detail</h2>
+        
+        <div>
+            <p><strong>Name:</strong> [Event Name]</p>
+            <p><strong>Date:</strong> [Event Date]</p>
+            <p><strong>Location:</strong> [Event Location]</p>
+            <p><strong>Description:</strong> [Event Description]</p>
+            <p><strong>Organizer:</strong> [Event Organizer]</p>
+
+            <div>
+                <button class="btn-delete" onclick="handleDelete()">Delete</button>
+                <button class="btn-delete" onclick="handleEdit()">Edit</button>
+            </div>
+        </div>
+        <p>Event not found</p>
+
+        <a href="/">Back to Event List</a>
+    </div>
+
+    <script src="EventDetailPage.js"></script>
+</body>
+</html>
